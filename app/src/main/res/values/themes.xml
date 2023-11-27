@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MeusApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!--<item name="colorPrimary">@color/verd</item>
+        <item name="colorPrimaryVariant">@color/verdmig</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/blau</item>
+        <item name="colorSecondaryVariant">@color/blaumig</item>
+        <item name="colorOnSecondary">@color/black</item>-->
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/bottom_nav_selected_item</item>
+    </style>
+
+    <style name="Theme.MeusApp" parent="Base.Theme.MeusApp" />
+</resources>
